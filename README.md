@@ -14,7 +14,8 @@ Tudo será avaliado. Faça o seu melhor na linguagem onde vc possui o maior dom�
 2. ```cd desafiohu3```
 3. ```npm install```
 4. ```gulp build```
-5. abre o seu navegador e acesse *http://localhost:3000/*
+5. ```node server.js```
+6. abre o seu navegador e acesse *http://localhost:3000/*
 
 Esses comandos tem que ser o suficiente para configurar meu mac os x OU ubuntu e rodar seu programa. Pode considerar que eu tenho instalado no meu sistema Python, Java, PHP, Ruby e/ou Node. Qualquer outra dependência que eu precisar vc tem que prover.
 
