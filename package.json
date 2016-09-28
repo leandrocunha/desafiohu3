@@ -1,0 +1,47 @@
+{
+  "name": "desafiohu",
+  "version": "1.0.0",
+  "description": "Hotel Urbano Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrocunha/desafiohu3.git"
+  },
+  "author": "Leandro Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrocunha/desafiohu3/issues"
+  },
+  "homepage": "https://github.com/leandrocunha/desafiohu3#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-page": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-util": "^3.0.7",
+    "jeet": "^6.1.2",
+    "jquery": "^3.1.1",
+    "mcfly": "^1.0.0",
+    "nib": "^1.1.2",
+    "numeral": "^1.5.3",
+    "rupture": "^0.6.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

@@ -1,0 +1,48 @@
+#Offers
+  .column
+    column(1/4, cycle: 4)
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1)
+    margin-bottom: 40px
+    
+    &:hover
+      .image
+        height: 200px
+        
+      .info
+        height: 180px
+        
+    a
+      color: $black
+    
+    .image,
+    .info
+      transition: all .3s ease
+      
+    .image
+      background-position: center
+      background-size: cover
+      height: 220px
+      
+    .info
+      background-color: $white
+      height: 160px
+      padding: 20px        
+      
+      .location
+        {MontserratBold}
+        font-size: .7rem
+        margin: 0 0 10px 0
+        text-transform: uppercase
+        
+      .title
+        {MontserratRegular}
+        border-bottom: $alto 1px solid
+        font-size: 1rem
+        height: 45px
+        line-height: 1.4em
+        margin-bottom: 10px
+        padding-bottom: 10px
+        
+      .description
+        font-size: .8rem
+        line-height: 1.4em
